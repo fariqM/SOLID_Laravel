@@ -4,7 +4,7 @@ namespace App\Repositories\Task;
 
 use App\Models\Task;
 
-class TaskRepository implements iTaskRepository
+class TaskRepository implements ITaskRepository
 {
     public function getAll()
     {

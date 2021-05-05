@@ -2,7 +2,7 @@
 
 namespace App\Repositories\Task;
 
-interface iTaskRepository
+interface ITaskRepository
 {
     public function getAll();
     public function create($request);
