@@ -1,5 +1,27 @@
+## Preparation
+- git clone (https://github.com/WahidinAji/SOLID-Pattern-Laravel.git) solid_pattern
+- cd solid_pattern
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- [setup databases] (https://laravel.com/docs/8.x/database) 
+- php artisan migrate --seed
+
+## Documentation using [Postmant] (https://www.postman.com/)
 ## Get all data
 ![screenshot.png](https://github.com/WahidinAji/SOLID-Pattern-Laravel/blob/main/public/Docs%20of%20Restfull%20API%20by%20Postman/get_all_data.PNG)
+
+## Create data
+![screenshot.png](https://github.com/WahidinAji/SOLID-Pattern-Laravel/blob/main/public/Docs%20of%20Restfull%20API%20by%20Postman/create_data.PNG)
+
+## Get data by id
+![screenshot.png](https://github.com/WahidinAji/SOLID-Pattern-Laravel/blob/main/public/Docs%20of%20Restfull%20API%20by%20Postman/get_data_by_id.PNG)
+
+## Update data
+![screenshot.png](https://github.com/WahidinAji/SOLID-Pattern-Laravel/blob/main/public/Docs%20of%20Restfull%20API%20by%20Postman/update_data_by_id.PNG)
+
+## Delete data
+![screenshot.png](https://github.com/WahidinAji/SOLID-Pattern-Laravel/blob/main/public/Docs%20of%20Restfull%20API%20by%20Postman/delete_data_by_id.PNG)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
