@@ -3,7 +3,6 @@
 namespace App\Repositories\Task;
 
 use App\Models\Task;
-use Illuminate\Support\Facades\Request;
 
 class TaskRepository implements iTaskRepository
 {
@@ -11,21 +10,25 @@ class TaskRepository implements iTaskRepository
     {
         return Task::all();
     }
-    public function create(Request $request)
+    public function create($request)
     {
-        return Task::create($request->all());
+        return Task::create($request);
     }
     public function getById($id)
     {
         return Task::findOrFail($id);
     }
-    public function update(Request $request, $id)
+    public function update($request, $id)
     {
-        $task =  Task::findOrFail($id);
-        return $task->update($request->all());
+        //data can't be read, just only give response true or false of updated
+        $task = Task::findOrFail($id);
+        $task->update($request);
+        return $task;
     }
     public function delete($id)
     {
-        return Task::destroy($id);
+        $task = Task::findOrFail($id);
+        $task->delete($id);
+        return $task;
     }
 }
