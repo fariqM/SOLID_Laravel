@@ -1,3 +1,6 @@
+## Get all data
+![screenshot.png](https://github.com/WahidinAji/SOLID-Pattern-Laravel/blob/main/public/Docs%20of%20Restfull%20API%20by%20Postman/get_all_data.PNG)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
