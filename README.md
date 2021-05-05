@@ -1,13 +1,13 @@
 ## Preparation
-- git clone (https://github.com/WahidinAji/SOLID-Pattern-Laravel.git) solid_pattern
+- git clone https://github.com/WahidinAji/SOLID-Pattern-Laravel.git solid_pattern
 - cd solid_pattern
 - composer install
 - cp .env.example .env
 - php artisan key:generate
-- [setup databases] (https://laravel.com/docs/8.x/database) 
+- [setup databases](https://laravel.com/docs/8.x/database) 
 - php artisan migrate --seed
 
-## Documentation using [Postmant] (https://www.postman.com/)
+## Documentation using [Postmant](https://www.postman.com/)
 ## Get all data
 ![screenshot.png](https://github.com/WahidinAji/SOLID-Pattern-Laravel/blob/main/public/Docs%20of%20Restfull%20API%20by%20Postman/get_all_data.PNG)
 
